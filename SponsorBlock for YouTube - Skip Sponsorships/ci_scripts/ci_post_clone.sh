@@ -1,14 +1,24 @@
 #!/bin/sh
 
-git submodule update
+set -eu
 
-# Install Homebrew
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+# Xcode Cloud 从 ci_scripts 目录执行脚本，这里先定位到仓库根目录。
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+REPO_ROOT="$(cd "$SCRIPT_DIR/../.." && pwd)"
 
-brew update
-brew install node
+cd "$REPO_ROOT"
+git submodule update --init --recursive
 
-cd ../../SponsorBlock
+if ! command -v node >/dev/null 2>&1; then
+    brew install node
+    export PATH="$(brew --prefix node)/bin:$PATH"
+fi
+
+cd "$REPO_ROOT/SponsorBlock"
+
+if [ ! -f config.json ]; then
+    cp config.json.example config.json
+fi
 
 npm ci
 npm run build:safari
