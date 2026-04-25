@@ -698,7 +698,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 56;
+				CURRENT_PROJECT_VERSION = 74;
 				DEVELOPMENT_TEAM = K9LDK6LF4H;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
@@ -710,7 +710,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 5.7;
+				MARKETING_VERSION = 5.11.9;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -731,7 +731,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 56;
+				CURRENT_PROJECT_VERSION = 74;
 				DEVELOPMENT_TEAM = K9LDK6LF4H;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
@@ -743,7 +743,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 5.7;
+				MARKETING_VERSION = 5.11.9;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -847,7 +847,7 @@
 				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/SponsorBlock for YouTube - Skip Sponsorships.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 56;
+				CURRENT_PROJECT_VERSION = 74;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = K9LDK6LF4H;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -861,7 +861,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
-				MARKETING_VERSION = 5.7;
+				MARKETING_VERSION = 5.11.9;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -882,7 +882,7 @@
 				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/SponsorBlock for YouTube - Skip Sponsorships.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 56;
+				CURRENT_PROJECT_VERSION = 74;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = K9LDK6LF4H;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -896,7 +896,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
-				MARKETING_VERSION = 5.7;
+				MARKETING_VERSION = 5.11.9;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
